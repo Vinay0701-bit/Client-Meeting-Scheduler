@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Meeting Schedule</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group input, .form-group select {
+            width: 20%;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        button {
+            display: block;
+            margin: 0 auto;
+            padding: 10px 20px;
+            font-size: 16px;
+            
+        }
+        h1{
+            text-align: center;
+        }
+        /* Add more styles as needed */
+    </style>
+</head>
+<body>
+
+    <h1>Client Meeting Schedule</h1>
+
+    <form id="meetingScheduleForm" action="#" method="post">
+        <div class="form-group">
+            <label for="clientName">Client Name:</label>
+            <input type="text" id="clientName" name="clientName" required>
+        </div>
+
+        <div class="form-group">
+            <label for="meetingDate">Meeting Date:</label>
+            <input type="date" id="meetingDate" name="meetingDate" required>
+        </div>
+
+        <div class="form-group">
+            <label for="meetingTime">Meeting Time:</label>
+            <input type="time" id="meetingTime" name="meetingTime" required>
+        </div>
+
+        <div class="form-group">
+            <label for="meetingLocation">Meeting Location:</label>
+            <input type="text" id="meetingLocation" name="meetingLocation" required>
+        </div>
+
+        <div class="form-group">
+            <label for="agenda">Agenda:</label>
+            <textarea id="agenda" name="agenda" rows="5" required></textarea>
+        </div>
+         
+        <button type="submit">Schedule Meeting</button>
+    </form>
+
+</body>
+</html>

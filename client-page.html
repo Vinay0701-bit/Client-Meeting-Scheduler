@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Client</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: aqua;
+            
+        }
+        .form-group {
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group input {
+            width: 20%;
+            padding: 10px;
+            box-sizing: border-box;
+            
+        }
+        h1{
+            text-align: center;
+        }
+       #button{
+        text-align: center;
+       }
+        /* Add more styles as needed */
+    </style>
+</head>
+<body>
+
+    <h1>Add New Client</h1>
+
+    <form id="clientForm" action="#" method="post">
+        <div class="form-group">
+            <label for="clientName">Client Name:</label>
+            <input type="text" id="clientName" name="clientName" required>
+        </div>
+
+        <div class="form-group">
+            <label for="clientEmail">Email:</label>
+            <input type="email" id="clientEmail" name="clientEmail" required>
+        </div>
+
+        <div class="form-group">
+            <label for="clientPhone">Phone Number:</label>
+            <input type="tel" id="clientPhone" name="clientPhone" required>
+        </div>
+         <div id="button">
+        <button type="submit">Add Client</button>
+        </div>
+    </form>
+
+</body>
+</html>
+
