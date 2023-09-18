@@ -1,0 +1,28 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: aqua;
+            
+        }
+        .form-group {
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group input {
+            width: 20%;
+            padding: 10px;
+            box-sizing: border-box;
+            
+        }
+        h1{
+            text-align: center;
+        }
+       #button{
+        text-align: center;
+       }
+   
